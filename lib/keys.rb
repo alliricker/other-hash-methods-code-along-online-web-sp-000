@@ -11,12 +11,3 @@ require 'pry'
 def get_the_keys(groceries)
   groceries.keys
 end
-
-def get_the_values(groceries)
-  groceries.values.flatten
-  binding.pry
-end
-
-def get_the_min(groceries)
-groceries.values.min
-end
